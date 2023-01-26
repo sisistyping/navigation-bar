@@ -1,0 +1,110 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  font-family: 'Montserrat';
+  color: black;
+}
+div{
+  background: white;
+  height: 50px;
+  width: 100%;
+}
+label.logo{
+  padding: 0 0px;
+  margin: 80px;
+}
+.wrapper ul{
+  float: right;
+  margin-right: 60px;
+  list-style: none;
+}
+.wrapper .upperlist ul li{
+  display: inline-block;
+  line-height: 20px;
+  margin: 0 7px;
+}
+.wrapper .bottomlist ul li{
+  display: inline-block;
+  line-height: 20px;
+  margin: 0 7px;
+}
+.wrapper .bottomlist ul ul li {
+ float: none;
+ border-top: 1px solid #000;
+ border-bottom: 1px solid #000;
+ position: relative;
+}
+.dropbtn {
+  background-color: white;
+  color: black;
+  outline: none;
+  font-family: 'Montserrat';
+  padding: 16px;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.show {
+  display: block;
+}
+
+
+
+/*
+.wrapper .bottomlist .menu li:hover>ul {
+  opacity: 1;
+  visibility: visible;
+  margin: 0;
+}
+.menu:hover li {display: block;}
+.dropdown_menu{
+  display:none;
+}
+.dropdown_menu ul{
+  margin: 4px;
+}
+.dropdown_menu li a{
+  text-align: center;
+  height: auto;
+  position: relative;
+  border-bottom: 1px solid white;
+  display: block;
+  text-decoration: none;
+  padding: 4px 4px;
+}
+.dropdown_menu ul:hover > li{
+  visibility: hidden;
+  background: #00AEEF;
+  opacity: 0;
+  transition: 300ms;
+  z-index: 999;
+  list-style: none;
+  position: absolute;
+  height: auto;
+  min-width: 250px;
+}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+*/
